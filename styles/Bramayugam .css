@@ -1,0 +1,112 @@
+.d-flex{
+    display: flex;
+}
+main{
+    padding:170px 0 0 0;
+}
+.page-1{
+    background: #27272A;
+    padding: 25px;
+}
+.left-side{
+    max-width:750px;
+}
+.thecategory{
+    background-color: #171717;
+    padding: 7px 15px;
+}
+.thecategory i{
+    color: white;
+}
+.thecategory a{
+    color: gray !important;
+}
+.single-title h1{
+    font-size: 22px;
+    line-height: 30px;
+    color: white;
+    padding: 12px 0 0 0;
+    font-family: aclonica!important;
+}
+.post-info{
+    padding: 12px 0 0 0;
+}
+.post-info span{
+    color: #A4A4A4;
+    font-size: 13px;
+}
+.add p{
+    color: #a1a1aa;
+    line-height: 25px;
+    padding: 0 0 10px 0;
+}
+.p720{
+    color: rgba(0, 255, 255, 0.685);
+}
+.topmovie{
+    color: red;
+}
+.imdb-movie{
+    background-color: #222222;
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+}
+.imdb-content{
+    padding: 0 0 0 20px;
+}
+.imdb-header span{
+    font-size: 24px;
+    color: white;
+}
+.imdb-header p{
+    color: #d9d9d9;
+    font-size: 13px;
+    padding: 3px 0 0 0;
+}
+.hr{
+    width: 510px;
+    margin-top: 15px;
+    border-bottom: 1px solid #2F2F2F;
+}
+.imdb-belt img{
+    width: 55px;
+}
+.imdb-belt span{
+    margin: 20px 10px 0 15px;
+    font-size: 18px;
+}
+.imdb-details{
+    font-size: 10px;
+    margin-top: 10px;
+}
+.imdb-content p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+b{
+    font-size: 15px;
+}
+.left-side h3{
+    color: #008080;
+    text-align: center;
+    font-size: 23px;
+    padding: 25px 0 0 0;
+}
+.left-side h2{
+    color: #555555;
+    font-size:22px;
+    margin-top: 20px;
+}
+.list{
+    list-style-type: square;
+    margin: 20px 0 0 35px;
+    font-size: 20px;
+}
+.list li{
+    color: #a1a1aa;
+}
+.left-side p{
+    color: #a1a1aa;
+    margin-top: 20px;
+}

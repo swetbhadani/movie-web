@@ -5,29 +5,31 @@
 }
 a {
     text-decoration: none;
+    color: white !important;
 }
 body {
     background-color: #18181B;
     font-family:Roboto !important;
+    color: white;
 }
 .container {
     max-width: 1168px;
     margin: 0 auto;
+    padding: 0 ;
 }
 header {
     position: relative;
     float: left;
     width: 100%;
     z-index: 99;
+
 }
 .navbar {
     display: flex;
+    flex-wrap: wrap;
     background: #27272a;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
     position: relative;
     width: 100%;
-    float: left;
-    text-align: center;
     align-items: center;
 }
 .header-search {
@@ -153,4 +155,83 @@ header {
 .post-by h2{
     color: white;
     font-family: Roboto;
+}
+#page-1{
+    text-align: center;
+    padding-top: 170px;
+}
+.button-row  button{
+    padding: 8px 6px;
+    background-color: #555555;
+    color: white;
+    border: 1px solid #e7e7e7;
+    border-radius: 10%;
+}
+.button-row a{
+    padding: 5px 3px;
+    border-radius: 10%;
+}
+.fa-telegram{
+    background-color: #009DE1 !important;
+    border: 1px solid #009DE1 !important;
+    color: white !important;
+}
+.button-row :first-child {
+    background-color: #009DE1;
+    border: 1px solid #0088cc;
+} 
+.button-row :last-child{
+    color: black;
+    background-color: #FFAA2C;
+    border: 1px solid #EDBA26;
+} 
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.img-row{
+    display: flex;
+    gap: 24px ;
+    flex-wrap: wrap;
+    margin: auto 30px;
+    padding: 30px 0 0 0;
+}
+.img-item{
+    max-width: 200px;
+    border-radius: 5%;
+    background-color: #27272A;
+}
+.img-item img{
+    border-radius: 10px 10px 0 0;
+}
+.img-item p{
+    padding: 0 10px;
+    text-align: center;
+    padding: 12px 2px 40px 2px;
+}
+:hover.text{
+    color:gray;
+    transition: 0.4s;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.page-3{
+    background-color: #18181B;
+}
+.page-btn{
+    width: 100%;
+    margin: 30px 0;
+    padding: 20px;
+    display: flex;
+    gap: 8px;
+    border-radius: 0 0 10px 10px;
+    background: #27272a;
+}
+.curent{
+    background-color: black !important;
+}
+.dot{
+    background-color: #343434 !important;
+}
+.page-num{
+    font-size: 18px;
+    padding:10px 16px;
+    border-radius: 5px;
+    background-color: #494949;
 }
