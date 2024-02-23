@@ -110,3 +110,111 @@ b{
     color: #a1a1aa;
     margin-top: 20px;
 }
+.movie-img img{
+    max-width: 750px;
+    margin-bottom: 18px;
+}
+.movie-img h2{
+    color: #008080;
+    text-align: center;
+}
+.movie-img h4{
+    padding: 10px 0px 10px 12px; 
+    max-width:150px ;
+    background: #37896e;
+    border: 2px solid #087f40;
+    border-radius: 4px;
+    color: white;
+    margin: 20px 0px 0px 300px;
+}
+.end-btn:hover{ 
+    background-color: black;
+    border: 2px solid white;
+}
+.ad-1{
+    padding: 20px 0 25 px 220px;
+}
+.ad-1 img{
+    margin: 0 0 20px 0;
+}
+.alert{
+    margin-top: 10px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.alert-1{
+    background: #F66459;
+}
+.alert-2{
+    background: #2FB986;
+}
+.alert-3{
+    background: #FFAA2C;
+}
+.alert-4{
+    background: #47A8F5;
+}
+.right-side{
+    background: #09090b;
+    padding: 25px;
+    max-width: 344px;
+    margin-left: 20px;
+}
+.right-search{
+    top: -20px;
+}
+.right-search input{
+    border-radius: 1px;
+    background: #555555;
+    width: 100%;
+}
+.join-tele{
+    background-color: #18181B;
+    margin-top: -20px;
+}
+.right-hr{
+    max-width: 350px;
+}
+.dark-header h2{
+    color: #555555;
+    padding: 10px 0 0 10px;
+}
+.join-tele img{
+    padding: 15px 20px;
+    max-width: 300px;
+}
+.right-add{
+    margin-top: 25px;
+    background-color:#18181B;
+    padding: 15px 20px 30px 25px;
+}
+.right-add img{
+    max-width:95%;
+}
+.btn-box{
+    margin-top: 30px;
+    background:#18181B;
+}
+.category-list{
+    display: flex;
+    padding: 20px;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.back-g{
+    background: url('/movie-web/assest/Bramayugam/dark-img\ 14.png');
+    background-size: cover;
+    font-size: 12px;
+    padding: 3px 12px 3px 20px;
+    width: auto;
+    text-shadow: 1px 1px 0 #000;
+}
+
+:hover.back-g{
+    background: url('/movie-web/assest/Bramayugam/asset\ 140.png');
+    background-size: cover;
+
+}
